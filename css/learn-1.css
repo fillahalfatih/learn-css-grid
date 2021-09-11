@@ -1,0 +1,27 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 100px 50px 75px;
+}
+
+.item {
+    background-color: rgb(138, 209, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: rgb(255, 142, 142);
+}
